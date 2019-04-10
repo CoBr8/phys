@@ -1,8 +1,8 @@
 # phys
-Physics COursework
-This repository is being used for the physics courses at the university of victoria. \n
-\tPhysics 130: Intro Physics 2 (basic calculations for assignments and labs)
-\tPhysics 215: Intro Quantum Mechanics
-\tPhysics 216: Intro Electricity and Magnetism\n
+Physics Coursework
+This repository is being used for the physics courses at the university of victoria.
+* Physics 130: Intro Physics 2 (basic calculations for assignments and labs)
+* Physics 215: Intro Quantum Mechanics
+* Physics 216: Intro Electricity and Magnetism
 
 As the degree progresses more and more files will be added here!

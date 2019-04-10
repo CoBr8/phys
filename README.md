@@ -1,4 +1,4 @@
-# phys
+# Physics Repository
 Physics Coursework
 This repository is being used for the physics courses at the university of victoria.
 * Physics 130: Intro Physics 2 (basic calculations for assignments and labs)

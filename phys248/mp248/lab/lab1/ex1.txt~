@@ -1,0 +1,13 @@
+Exercise 1
+- create a directory called `tmp` and change into it
+- create a text file (with `touch`) called `tmp.txt`, edit it with the CLI editor of your choice to fill it with the names of lots of people you know; include the names _Carol_ and _Thomas_ even if you don't know people with that name
+- change the file name to `names.txt`
+- how many lines does it have? (don't count, use a shell command)
+- search through the file for all incidences of the letter `o` and of the string `mas`, and report how many instances there are, also find all entries with either the string `ol` or `om`
+- use `man` to look at the various options for `grep`, and then look for lines that do NOT have the letter `o` in it.
+- go up one directory, and determine the sizes of  
+    1. this new present working directory, and 
+    2. the just the previoulsy created directory `tmp`.
+- use `man` to look at the options for `rm`, and then delete *ONLY* the entire directory you just created in one command.
+- use `history` to see what you just did!
+- save the history into a file called `history.txt`

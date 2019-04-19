@@ -1,0 +1,4 @@
+LINES=` wc -l < ex1.txt`
+NAMO= `grep 'the' ex1.txt | wc -l`
+echo Lines: "$LINES" the: "$NAMO"
+sed s/'the'/'THE'/g 'ex1.txt' > 'ex1_n.txt'

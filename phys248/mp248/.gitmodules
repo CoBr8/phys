@@ -1,0 +1,3 @@
+[submodule "mp248-model-solutions"]
+	path = solutions
+	url = git@206-12-89-142.cloud.computecanada.ca:fherwig/mp248-model-solutions.git

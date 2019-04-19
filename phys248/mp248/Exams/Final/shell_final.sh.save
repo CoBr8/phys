@@ -1,0 +1,8 @@
+cd ~/mp248-course-notes
+touch listing.short
+touch listing.long
+touch shell_answer.txt
+find . -type f > ~/mp248/Exams/Final/listing.short
+find . -type dshort" ~/mp248/Exams/Final/listing.long
+file="listing.long"
+grep -e "*.ipynb" $file | wc -l > ~/mp248/Exams/Final/shell_answer.txt

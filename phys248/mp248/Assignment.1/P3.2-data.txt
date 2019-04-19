@@ -1,0 +1,1 @@
+ 4  1610  10016  25622  48428  784The sum of the output array is: 5.298

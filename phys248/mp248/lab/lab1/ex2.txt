@@ -1,0 +1,12 @@
+- create a directory called `tmp` and change into it
+- create a text file (with `touch`) called `tmp.txt`, edit it with THE CLI editor of your choice to fill it with THE names of lots of people you know; include THE names _Carol_ and _Thomas_ even if you don't know people with that name
+- change THE file name to `names.txt`
+- how many lines does it have? (don't count, use a shell command)
+- search through THE file for all incidences of THE letter `o` and of THE string `mas`, and report how many instances THEre are, also find all entries with eiTHEr THE string `ol` or `om`
+- consult THE man pages on THE [Ubuntu Manpage Repository](http://manpages.ubuntu.com) to look at THE various options for `grep`, and THEn look for lines that do NOT have THE letter `o` in it.
+- go up one directory, and determine THE sizes of  
+    1. this new present working directory, and 
+    2. THE just THE previoulsy created directory `tmp`.
+- use THE man pages to look at THE options for `rm`, and THEn delete *ONLY* THE entire directory you just created in one command.
+- use `history` to see what you just did!
+- save THE history into a file called `history.txt`

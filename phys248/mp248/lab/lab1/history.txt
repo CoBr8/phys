@@ -1,0 +1,500 @@
+   46  git push
+   47  git status
+   48  git add Quizzes/Quiz.2.ipynb 
+   49  git commit -m 'Finished pt 3'
+   50  git push
+   51  git add Quizzes/Quiz.2.ipynb 
+   52  git commit -m 'Fixed part 3'
+   53  git push
+   54  git add lab/Lab.5a.ipynb 
+   55  git add lab/Lab.6a.ipynb 
+   56  git commit -m 'worked on labs 5a and 6a'
+   57  git push
+   58  git celan -rf
+   59  git clean -df
+   60  cat b.py
+   61  ed b.py
+   62  cd
+   63  cd mp248-course-notes/
+   64  git pull
+   65  ls -la
+   66  ls -l
+   67  cp Labs/*.ipynb ~/mp248/lab/
+   68  cd
+   69  cd mp248
+   70  cd lab/
+   71  ls -l
+   72  git rm Lab5a.ipynb 
+   73  git add
+   74  git commit -m 'removed lab5a.ipynb (old)'
+   75  git push
+   76  git clean -df
+   77  cp ~/mp248-course-notes/Labs/*.ipynb ~/mp248/lab/
+   78  git status
+   79  git add Lab.6a.ipynb 
+   80  git status
+   81  git add Lab.6b.ipynb 
+   82  git commit -m 'added labs 6a and 6b to repo
+   83  '
+   84  git push
+   85  git clean -df
+   86  mkdir lab6
+   87  cp Lab.6*.ipynb lab6/
+   88  cd mp248
+   89  git status
+   90  git add b.py 
+   91  git add lab/lab6/
+   92  git add Quizzes/Quiz.2.ipynb 
+   93  git add notes/6.\ Files\ and\ OS.ipynb 
+   94  git add notes/edited/6.\ Files\ and\ OS.ipynb 
+   95  git status
+   96  git commit
+   97  git push
+   98  cd
+   99  cd mp248-course-notes/
+  100  git pull
+  101  ls -l
+  102  cd *.ipynb ~/mp248/notes/
+  103  cp *.ipynb ~/mp248/notes/
+  104  cd Labs/
+  105  ls -l
+  106  cp Lab.7a.ipynb ~/mp248/lab/
+  107  cd
+  108  cd mp248
+  109  cd lab/
+  110  ls -l
+  111  mkdir lab7
+  112  cp Lab.7a.ipynb lab7/
+  113  ls -l
+  114  clear
+  115  cd ..
+  116  cd notes/
+  117  cp 7.\ Sympy.ipynb edited/
+  118  cd edited/
+  119  ls -l
+  120  rm 4.\ Python\ plotting\,\ interpolation\,\ units\,\ 2D\ arrays.html 
+  121  ls -l
+  122  git status
+  123  git rm "4. Python plotting, interpolation, units, 2D arrays.html"
+  124  git add ../6.\ Files\ and\ OS.ipynb 
+  125  git add ../4.\ Python\ plotting\,\ interpolation\,\ units\,\ 2D\ arrays.ipynb 
+  126  git add ../4.\ Python\ plotting\,\ interpolation\,\ units\,\ 2D\ arrays.ipynb 
+  127  git add ../1.\ Command\ line\ interface\ -\ Linux\,\ Unix\,\ GNU.ipynb 
+  128  cd ..
+  129  git status
+  130  cd ..
+  131  cd Quizzes/
+  132  git status
+  133  git add Quiz.2.ipynb 
+  134  cd ..
+  135  cd lab/
+  136  git statu
+  137  git status
+  138  git add lab7/
+  139  git status
+  140  git add Lab.7a.ipynb 
+  141  cd..
+  142  cd ..
+  143  cd notes/
+  144  git add 7.\ Sympy.ipynb 
+  145  git status
+  146  cd edited/
+  147  git add 7.\ Sympy.ipynb 
+  148  git status
+  149  git commit -m 'added new files from corse dir'
+  150  git push
+  151  git push -f
+  152  git status
+  153  git celan
+  154  git clean
+  155  git clean -df
+  156  git pull
+  157  PS1='[PEXP\[\]ECT_PROMPT>' PS2='[PEXP\[\]ECT_PROMPT+' PROMPT_COMMAND=''
+  158  export PAGER=cat
+  159  display () {     TMPFILE=$(mktemp ${TMPDIR-/tmp}/bash_kernel.XXXXXXXXXX);     cat > $TMPFILE;     echo "bash_kernel: saved image data to: $TMPFILE" >&2; }
+  160  PS1='[PEXP\[\]ECT_PROMPT>' PS2='[PEXP\[\]ECT_PROMPT+' PROMPT_COMMAND=''
+  161  export PAGER=cat
+  162  display () {     TMPFILE=$(mktemp ${TMPDIR-/tmp}/bash_kernel.XXXXXXXXXX);     cat > $TMPFILE;     echo "bash_kernel: saved image data to: $TMPFILE" >&2; }
+  163  cd mp248
+  164  git pull
+  165  cd
+  166  cd mp248-course-notes/
+  167  git pull
+  168  cp 7.\ Sympy.ipynb ~/mp248/notes/
+  169  cd Labs/
+  170  cp Lab.7a.ipynb ~/mp248/lab/
+  171  cd
+  172  cd mp248
+  173  cd lab/
+  174  ls -l
+  175  cd ..
+  176  cd Assignment.1/
+  177  ./shake_analysis.sh 
+  178  cd mp248
+  179  git status
+  180  git add Assignment.1/Assignment-python.ipynb 
+  181  git add Assignment.1/Assignment.1.ipynb 
+  182  git add Assignment.1/
+  183  git status
+  184  git rm Assignment.1/.ipynb_checkpoints/
+  185  git rm Assignment.1/.ipynb_checkpoints/ -r
+  186  git status
+  187  git commit -m 'updated a1 to be more complete'
+  188  git push
+  189  git status
+  190  git add lab/Lab.7a.ipynb 
+  191  git add notes/7.\ Sympy.ipynb 
+  192  git add notes/edited/7.\ Sympy.ipynb 
+  193  git commit -m 'Added lecture 7 notes'
+  194  git push
+  195  git status
+  196  git checkout
+  197  git clean -rd
+  198  git clean -df
+  199  got status
+  200  git status
+  201  cd
+  202  cd mp248-course-notes/
+  203  git pull
+  204  cp 7.\ Sympy.ipynb ~/mp248/notes/
+  205  cd
+  206  cd mp248
+  207  git status
+  208  cd
+  209  cd mp248-course-notes/
+  210  ls -l
+  211  cp images/ ~/mp248/
+  212  cp -r images/ ~/mp248/
+  213  cd
+  214  cd mp248
+  215  mv images/ notes/
+  216  cd mp248
+  217  ls -l
+  218  mkdir Assignment.2
+  219  cd
+  220  cd mp248-course-notes/
+  221  git checkout
+  222  git clean -rd
+  223  git clean -df
+  224  git pull
+  225  ls -l
+  226  cd Quizzes_Assignments_Exams/
+  227  ls -l
+  228  cp Assignment.2.ipynb ~/mp248/Assignment.2/
+  229  cd
+  230  cd mp248-course-notes/
+  231  git checkout
+  232  git pull
+  233  rm -rf Quizzes_Assignments_Exams/
+  234  git pull
+  235  git pull
+  236  git checkout
+  237  git pull
+  238  git checkout
+  239  git update
+  240  git checkout Quizzes_Assignments_Exams/
+  241  ls -l
+  242  htop
+  243  top
+  244  clear
+  245  cd mp248
+  246  git status
+  247  git add Quizzes/Quiz.2.ipynb 
+  248  git commit -m "looked over quiz, minor edits no code changed"
+  249  git add notes/7.\ Sympy.ipynb 
+  250  git commit -m "Updated note 7"
+  251  git add Assignment.2/
+  252  git commit -m "Worked on A2, issues: dictionary values are 0 at and above 1000, reoccuring 49 for higher k values"
+  253  git status
+  254  git add notes/images/
+  255  git commit -m "lecture files images folder"
+  256  git push
+  257  git stuatus
+  258  git status
+  259  git clean -df
+  260  git status
+  261  git push
+  262  cd
+  263  cd mp248-course-notes/
+  264  git pull
+  265  cd Labs/
+  266  ls -l
+  267  cp Lab.7b.ipynb ~/mp248/lab/lab7/
+  268  cd
+  269  cd mp248
+  270  cd lab/
+  271  cd lab7/
+  272  cp Lab.7b.ipynb ..
+  273  cd
+  274  cd mp248-course-notes/
+  275  cp 7.\ Sympy.ipynb ~/mp248/notes/edited/
+  276  git add -A
+  277  cd mp248
+  278  git add -A
+  279  git commit -m 'push b4 pull'
+  280  git push
+  281  git pull
+  282  python find_recursionlimit.py 
+  283  cd mp248
+  284  git status
+  285  cd Assignment.2/
+  286  git add Assignment.2.ipynb 
+  287  git commit -m 'finished q2'
+  288  git push
+  289  cd
+  290  cd mp248-course-notes/
+  291  git pull
+  292  cd
+  293  cd mp248
+  294  git status
+  295  cd Assignment.
+  296  cd Assignment.2/
+  297  git add Assignment.2.ipynb 
+  298  git commit -m ""
+  299  git commit -m " "
+  300  git commit -m "a "
+  301  git push
+  302  git add Assignment.2.ipynb 
+  303  git commit -m "altered code for P1 for grading script"
+  304  git push
+  305  cd mp248
+  306  cd Assignment.2/
+  307  git add Assignment.2.ipynb 
+  308  git commit -m "inlined and edited p1"
+  309  git push
+  310  git add Assignment.2.ipynb 
+  311  git commit -m "inlined and edited p2"
+  312  git push
+  313  git add Assignment.2.ipynb 
+  314  git push
+  315  git push
+  316  git commit -m "inlined and edited p2"
+  317  git push
+  318  git add Assignment.2.ipynb 
+  319  git commit -m "inlined and edited p2"
+  320  git push
+  321  cd mp248
+  322  cd Assignment.2/
+  323  git add Assignment.2.ipynb 
+  324  git commit -m "Finished p2,p4"
+  325  git push
+  326  cd mp248-course-notes/
+  327  git pull
+  328  cp *.ipynb ~/mp248/notes/
+  329  ls -l
+  330  cp data/ ~/mp248/
+  331  cp data/ ~/mp248/ -r
+  332  cd
+  333  cd mp248
+  334  cd notes/
+  335  cp 8.\ Simple\ Stats.ipynb edited/
+  336  cd ..
+  337  cd L
+  338  ls -l
+  339  cd lab/
+  340  ls -l
+  341  cd
+  342  cd mp248-course-notes/
+  343  ls -l
+  344  cd Labs/
+  345  ls -l
+  346  cp Lab.8a.ipynb ~/mp248/lab/
+  347  cd
+  348  cd mp248
+  349  cd lab/
+  350  ls -l
+  351  mkdir lab8
+  352  cp Lab.8a.ipynb lab8/
+  353  ls -l
+  354  cd lab8/
+  355  ls -l
+  356  cd ~/mp248
+  357  mv data/ notes/
+  358  cd notes/
+  359  ls -l
+  360  ls *.ipynb*
+  361  rm 8.\ Simple\ Stats.ipynb 
+  362  cd edited/
+  363  rm 8.\ Simple\ Stats.ipynb 
+  364  PS1='[PEXP\[\]ECT_PROMPT>' PS2='[PEXP\[\]ECT_PROMPT+' PROMPT_COMMAND=''
+  365  export PAGER=cat
+  366  display () {     TMPFILE=$(mktemp ${TMPDIR-/tmp}/bash_kernel.XXXXXXXXXX);     cat > $TMPFILE;     echo "bash_kernel: saved image data to: $TMPFILE" >&2; }
+  367  dd={}
+  368  dd[1]=2
+  369  dd[2]=3
+  370  echo $?
+  371  dd={}
+  372  dd[1]=2
+  373  dd[2]=3
+  374  print(dd)
+  375  echo $?
+  376  cd mp248-course-notes/
+  377  git pull
+  378  git pull
+  379  ls -l
+  380  cp 8.\ Simple\ Stats.ipynb ~/mp248/notes/
+  381  cd
+  382  cd mp248
+  383  cd notes
+  384  ls -l
+  385  cd 8.\ Simple\ Stats.ipynb edited/
+  386  cp 8.\ Simple\ Stats.ipynb edited/
+  387  git status
+  388  git add 7.\ Sympy.ipynb 
+  389  git commit -m "commit"
+  390  git push
+  391  git status
+  392  git add ../lab/lab8/ -r
+  393  git add ../lab/lab8/ -r
+  394  git add ../lab/lab8/
+  395  git commit -m "Added lab 8 to repo"
+  396  git push
+  397  clear
+  398  git status
+  399  git add ../lab/Lab.8a.ipynb 
+  400  git add 8.\ Simple\ Stats.ipynb 
+  401  git add data/
+  402  git add edited/8.\ Simple\ Stats.ipynb 
+  403  git commit -m "Lecture 8"
+  404  git push
+  405  git status
+  406  git clean -df
+  407  git status
+  408  cd ..
+  409  cd ..
+  410  cd mp248
+  411  git clean -df
+  412  git status
+  413  git rm Assignment.2/.ipynb_checkpoints/
+  414  git rm Assignment.2/.ipynb_checkpoints/ -r
+  415  git rm Assignment.2/.ipynb_checkpoints/ -rf
+  416  git rm notes/edited/.ipynb_checkpoints/ -rf
+  417  git status
+  418  git commit -m "Removed checkpoints folders"
+  419  git status
+  420  git clean -df
+  421  git status
+  422  git pull
+  423  cd
+  424  clear
+  425  history
+  426  clear history
+  427  clear -x
+  428  clear -x
+  429  clear -x
+  430  cd mp248
+  431  cd notes/
+  432  cd edited/
+  433  cp Untitled.ipynb ~/
+  434  cd
+  435  ls -l
+  436  clear
+  437  ls -l
+  438  rm test.sh~ 
+  439  cd other/
+  440  ls -l
+  441  cd
+  442  rm -r other/
+  443  y
+  444  cd
+  445  ls -l
+  446  cd mp248-course-notes/
+  447  git pull
+  448  cp 8.\ Simple\ Stats.ipynb ~/mp248/notes/
+  449  cp Quizzes_Assignments_Exams/Assignment.2.ipynb ~/
+  450  git status
+  451  git clean -df
+  452  cd
+  453  cd mp248
+  454  git status
+  455  git add notes/8.\ Simple\ Stats.ipynb 
+  456  git commit -m "updated notes files"
+  457  git push
+  458  git status
+  459  git status
+  460  git add lab/lab5/ -r
+  461  git add lab/lab5/ -fg
+  462  git add lab/lab5/ -df
+  463  git add lab/lab5/
+  464  git status
+  465  git rm lab/lab5/.ipynb_checkpoints/
+  466  git rm lab/lab5/.ipynb_checkpoints/ -r
+  467  git status
+  468  git rm lab/lab5/.ipynb_checkpoints/
+  469  git rm lab/lab5/.ipynb_checkpoints/ -r
+  470  git status
+  471  git reset
+  472  git status
+  473  git add lab/lab5/46204.txt 
+  474  git add lab/lab8/data/
+  475  git status
+  476  git add lab/lab5/Lab5a.ipynb 
+  477  git status
+  478  git commit -m "updated lab 5 and got data for lab 8"
+  479  git push
+  480  cd mp248
+  481  git status
+  482  git add Assignment.2/Assignment.2.ipynb 
+  483  git add lab/lab8/Lab.8a.ipynb 
+  484  git commit -m "lab work, assignment 2 work"
+  485  git push
+  486  Scd
+  487  cd
+  488  cd mp248/Assignment.2/
+  489  git add Assignment.2.ipynb 
+  490  git commit -m "Updated assignment 2"
+  491  git push
+  492  cd
+  493  cd mp248
+  494  cd Assignment.2/
+  495  git add Assignment.2.ipynb 
+  496  git commit -m "part 2 completed enough"
+  497  git push
+  498  git add Assignment.2.ipynb 
+  499  git commit -m "no time/finished"
+  500  git push
+  501  cd
+  502  cd mp248
+  503  cd lab/
+  504  cd lab1/
+  505  ls -l
+  506  rm -rf tmp
+  507  rm tmp.txt
+  508  ls -l
+  509  mkdir tmp
+  510  cd tmp/
+  511  touch tmp.txt
+  512  ed tmp.txt 
+  513  mv tmp.txt names.txt
+  514  ls -l
+  515  grep names.txt
+  516  wc -l names.txt
+  517  less names.txt 
+  518  clear
+  519  cls
+  520  clear
+  521  grep -e 'o' -e 'mas'
+  522  grep -e 'o' -e 'mas' names.txt
+  523  grep -e 'o' -e 'mas' names.txt |wc -l
+  524  grep -e 'ol' -e 'om' names.txt | wc -l
+  525  grep --help
+  526  grep -v 'o' names.txt | wc -l
+  527  more names.txt 
+  528  clear
+  529  cd ..
+  530  pwd 
+  531  mu
+  532  ml --help
+  533  mr
+  534  mu
+  535  um
+  536  --help
+  537  help
+  538  du
+  539  du .
+  540  du -h .
+  541  rm -r tmp/
+  542  y
+  543  clear
+  544  history
+  545  history > history.txt
